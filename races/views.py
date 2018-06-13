@@ -2,13 +2,16 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from races.models import LinkPage
 
+
 # Create your views here.
 
 def race_home(request):
-	return HttpResponse("This is the races home page<br><br>Lets take a look at some of the most recent races...")
-
+    # http://127.0.0.1:8000/races/racehome/
+	# return HttpResponse("This is the races home page<br><br>Lets take a look at some of the most recent races...")
+    return render(request, 'index.html', {})
 
 def race_page(request, pg_no):
+    # http://127.0.0.1:8000/races/racehome/1/
     start_result = (pg_no - 1) * 10
     end_result = start_result + 10
 

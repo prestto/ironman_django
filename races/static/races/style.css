@@ -1,0 +1,46 @@
+head{
+    
+    color:#666666;
+    font-family: Tahoma, Helvetica;
+    font-size: 8
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+body {
+    background: #F7F5F4;
+    color:#666666;
+
+    font-family: Tahoma, Helvetica;
+    line-height:1.6em;
+
+}
+
+.main_text{
+    color:#987653
+}
+.container{
+    width:80%;
+    margin:auto;
+}
